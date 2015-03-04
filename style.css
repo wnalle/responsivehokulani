@@ -1,0 +1,64 @@
+body {
+  padding-top: 0px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", serif;
+  color: white;
+  background-color: white;
+}
+
+.header_image {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  height: 200px;
+}
+
+.navbar-inverse {
+  background-color: rgb(52,135,241);
+}
+
+.navbar-nav>li>a {
+  font-size:16px;
+  font-weight:bold;
+}
+
+
+.information,.announcements {
+  padding: 25px;
+  background-color: white;
+  border-style: none;
+}
+
+.welcome {
+  padding: 25px;
+  background-color: white;
+  border-style: none;
+}
+
+.welcome img {
+  height: 200px; background-size: contain; background-repeat: no-repeat; background-position: center
+}
+
+.welcome .well, .information .well, .announcements .well  {
+  background-color: rgb(52,135,241);
+  border-style: none;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.information .well>ul, .announcements .well>ul {
+  padding-left:10px;
+  font-size: 0.9em;
+  text-align: left;
+  list-style: none;
+}
+
+.information .well>ul>li>a, .announcements .well>ul>li>a {
+  color: white;
+}
+
+.information .well>p, .announcements .well>p, .welcome .well>p {
+  color: rgb(253,217,75);
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: rgb(253,217,75);
+
+}
